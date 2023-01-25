@@ -1,0 +1,3 @@
+inventory/**/* filter=crypt diff=crypt merge=crypt
+inventory/sample/**/* filter= diff= merge=
+inventory/.gitignore filter= diff= merge=

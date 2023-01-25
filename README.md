@@ -125,3 +125,7 @@ This repo is really standing on the shoulders of giants. Thank you to all those 
 - [k3s-io/k3s-ansible](https://github.com/k3s-io/k3s-ansible)
 - [geerlingguy/turing-pi-cluster](https://github.com/geerlingguy/turing-pi-cluster)
 - [212850a/k3s-ansible](https://github.com/212850a/k3s-ansible)
+
+
+## How to unencrypt secrets
+run `./scripts/transcrypt -c aes-256-cbc -p '<PASSWORD_HERE>'`
